@@ -1,10 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './styles.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+export default function App() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>Uygulama Çalışıyor 🚀</h1>
+      <p>Her şey doğru kurulmuş 👍</p>
+    </div>
+  );
+}
